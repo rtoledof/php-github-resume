@@ -1,0 +1,17 @@
+<div class="col-xs-4 col-xs-offset-3">
+    <div class="media">
+        <div class="media-left media-middle">
+            <a href="#">
+                <img src="{{ usr.avatar_url }}" alt="{{ usr.name }}" class="media-object" height="100px">
+            </a>
+        </div>
+        <div class="media-body">
+            <h4 class="media-heading">{{ usr.name ~ ' ( ' ~ usr.login ~ ' )' }}</h4>
+            <h5>
+                <a href="{{ usr.blog }}">{{ usr.blog }}</a>
+            </h5>
+            <strong>GitHub Profile:</strong> On GitHub since {{ usr.created_at | date('Y') }}, {{ usr.name }} is a developer based in Seattle with {{ usr.public_repos }} public repositories and {{ usr.followers }} followers.
+        </div>
+    </div>
+    <hr>
+</div>
