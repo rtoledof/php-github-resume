@@ -2,7 +2,7 @@
 
 `git clone https://github.com/rtoledof/php-github-resume`
 
-`cd github-resum-1.2`
+`cd /path/folder`
 
 `composer install`
 
