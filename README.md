@@ -1,6 +1,6 @@
 **Clone the repository.**
 
-`git clone https://rtfernandez@bitbucket.org/rtfernandez/github-resum-1.2.git`
+`git clone https://github.com/rtoledof/php-github-resume`
 
 `cd github-resum-1.2`
 
